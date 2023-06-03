@@ -54,8 +54,6 @@ namespace 李荣武
         }
 
 
-
-
         // 刷新方法
         private void QueryData()
         {

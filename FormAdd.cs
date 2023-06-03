@@ -29,6 +29,7 @@ namespace 李荣武
             MyConnStr = myConnStr;
             QueryData= queryData;
 
+            InitializeComponent();
 
             //实例化一个命令按钮
             Button btn = new Button();
@@ -105,6 +106,15 @@ namespace 李荣武
             this.Controls.Add(numericUpDown3);
 
 
+        }
+
+        private void InitializeComponent()
+        {
+            //设定按字体来缩放控件  
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            //设定字体大小为12px       
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular,
+            System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
         }
 
         // 确认添加

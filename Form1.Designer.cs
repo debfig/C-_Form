@@ -28,6 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            //设定按字体来缩放控件  
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            //设定字体大小为12px       
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular,
+            System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
+
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -69,7 +75,7 @@
             this.帮助ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(2127, 42);
+            this.menuStrip1.Size = new System.Drawing.Size(2127, 39);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -78,7 +84,7 @@
             this.文件ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.退出ToolStripMenuItem});
             this.文件ToolStripMenuItem.Name = "文件ToolStripMenuItem";
-            this.文件ToolStripMenuItem.Size = new System.Drawing.Size(82, 38);
+            this.文件ToolStripMenuItem.Size = new System.Drawing.Size(82, 35);
             this.文件ToolStripMenuItem.Text = "文件";
             // 
             // 退出ToolStripMenuItem
@@ -96,34 +102,34 @@
             this.修改学生信息ToolStripMenuItem,
             this.查看学生信息ToolStripMenuItem});
             this.信息维护ToolStripMenuItem.Name = "信息维护ToolStripMenuItem";
-            this.信息维护ToolStripMenuItem.Size = new System.Drawing.Size(130, 38);
+            this.信息维护ToolStripMenuItem.Size = new System.Drawing.Size(130, 35);
             this.信息维护ToolStripMenuItem.Text = "信息维护";
             // 
             // 录入学生信息ToolStripMenuItem
             // 
             this.录入学生信息ToolStripMenuItem.Name = "录入学生信息ToolStripMenuItem";
-            this.录入学生信息ToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.录入学生信息ToolStripMenuItem.Size = new System.Drawing.Size(291, 44);
             this.录入学生信息ToolStripMenuItem.Text = "录入学生信息";
             this.录入学生信息ToolStripMenuItem.Click += new System.EventHandler(this.录入学生信息ToolStripMenuItem_Click);
             // 
             // 删除学生信息ToolStripMenuItem
             // 
             this.删除学生信息ToolStripMenuItem.Name = "删除学生信息ToolStripMenuItem";
-            this.删除学生信息ToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.删除学生信息ToolStripMenuItem.Size = new System.Drawing.Size(291, 44);
             this.删除学生信息ToolStripMenuItem.Text = "删除学生信息";
             this.删除学生信息ToolStripMenuItem.Click += new System.EventHandler(this.删除学生信息ToolStripMenuItem_Click);
             // 
             // 修改学生信息ToolStripMenuItem
             // 
             this.修改学生信息ToolStripMenuItem.Name = "修改学生信息ToolStripMenuItem";
-            this.修改学生信息ToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.修改学生信息ToolStripMenuItem.Size = new System.Drawing.Size(291, 44);
             this.修改学生信息ToolStripMenuItem.Text = "修改学生信息";
             this.修改学生信息ToolStripMenuItem.Click += new System.EventHandler(this.修改学生信息ToolStripMenuItem_Click);
             // 
             // 查看学生信息ToolStripMenuItem
             // 
             this.查看学生信息ToolStripMenuItem.Name = "查看学生信息ToolStripMenuItem";
-            this.查看学生信息ToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.查看学生信息ToolStripMenuItem.Size = new System.Drawing.Size(291, 44);
             this.查看学生信息ToolStripMenuItem.Text = "查看学生信息";
             this.查看学生信息ToolStripMenuItem.Click += new System.EventHandler(this.查看学生信息ToolStripMenuItem_Click);
             // 
@@ -132,7 +138,7 @@
             this.帮助ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.关于AToolStripMenuItem});
             this.帮助ToolStripMenuItem.Name = "帮助ToolStripMenuItem";
-            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(82, 38);
+            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(82, 35);
             this.帮助ToolStripMenuItem.Text = "帮助";
             // 
             // 关于AToolStripMenuItem
@@ -228,7 +234,7 @@
             this.toolStripButton2,
             this.toolStripButton3,
             this.toolStripButton4});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 42);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 39);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0);
             this.toolStrip1.Size = new System.Drawing.Size(2127, 42);

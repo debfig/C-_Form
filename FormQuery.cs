@@ -36,6 +36,8 @@ namespace 李荣武
         {
             MyConnStr =myConnStr;
 
+            InitializeComponent();
+
 
             MyGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             学号,
@@ -124,6 +126,15 @@ namespace 李荣武
             this.Controls.Add(btn);
 
 
+        }
+
+        private void InitializeComponent()
+        {
+            //设定按字体来缩放控件  
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            //设定字体大小为12px       
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular,
+            System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
         }
 
         // 查询方法
